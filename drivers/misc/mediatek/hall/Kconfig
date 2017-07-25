@@ -1,0 +1,24 @@
+#
+# Misc strange devices
+#
+
+
+
+config CLAMP_SWITCH
+	bool "clamp switch"
+	help
+	Select this option to enable GPIO driver for the clamp IC
+	chip gpio.	
+
+	
+config HALL_SWITCH
+	bool "hall switch"
+	depends on INPUT
+	help
+	Select this option to enable GPIO driver for the hall IC
+	chip int.	
+
+
+
+
+

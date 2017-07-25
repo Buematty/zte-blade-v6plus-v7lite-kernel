@@ -1,0 +1,19 @@
+/*
+
+ */
+
+/*************************
+ * I2C dtsi file
+*************************/
+&i2c1 {
+	goodix_touch@5D {
+		compatible = "mediatek,goodix_touch";
+		reg = <0x5D>;
+	};
+
+	focal_touch@38 {
+		compatible = "mediatek,focal_touch";
+		reg = <0x38>;		
+	};
+};
+
